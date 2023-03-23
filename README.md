@@ -1,4 +1,6 @@
-# imc_calculator
+# IMC Calculator
+
+- This application was inspired by the BMI calculator from [Dev-CasperTheGhost](https://github.com/Dev-CasperTheGhost)
 
 This template should help get you started developing with Vue 3 in Vite.
 
