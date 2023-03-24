@@ -49,7 +49,7 @@ const calculateIMC = () => {
       <form @submit.prevent="calculateIMC" class="flex w-[340px] flex-col md:w-[480px]">
         <FormField label="Altura (m)">
           <input
-            type="text"
+            type="number"
             class="h-[48px] w-full rounded-md border-[1px] border-zinc-800 bg-transparent px-4 outline-none hover:border-blue-600"
             v-model="_height"
             required
