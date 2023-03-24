@@ -85,7 +85,7 @@ const calculateIMC = () => {
         </div>
       </form>
     </div>
-    <div class="absolute bottom-5">
+    <div class="absolute bottom-2">
       <a href="https://github.com/marcossdev/" target="_blank"
         ><img src="../assets/images/github-mark-white.png" alt="GitHub" width="30" height="30"
       /></a>
