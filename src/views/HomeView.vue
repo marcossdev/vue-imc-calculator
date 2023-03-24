@@ -50,11 +50,12 @@ const calculateIMC = () => {
         <FormField label="Altura (m)">
           <input
             type="text"
-            class="apare h-[48px] w-full rounded-md border-[1px] border-zinc-800 bg-transparent px-4 outline-none hover:border-blue-600"
+            class="h-[48px] w-full rounded-md border-[1px] border-zinc-800 bg-transparent px-4 outline-none hover:border-blue-600"
             v-model="_height"
             required
             placeholder="Exemplo: 1.75"
             max="1000"
+            step="any"
           />
         </FormField>
         <FormField label="Peso (kg)">
@@ -63,8 +64,9 @@ const calculateIMC = () => {
             class="h-[48px] w-full rounded-md border-[1px] border-zinc-800 bg-transparent px-4 outline-none hover:border-blue-600"
             v-model="_weight"
             required
-            placeholder="Exemplo: 72"
+            placeholder="Exemplo: 72.2"
             max="1000"
+            step="any"
           />
         </FormField>
         <div class="flex w-full flex-row justify-between">
